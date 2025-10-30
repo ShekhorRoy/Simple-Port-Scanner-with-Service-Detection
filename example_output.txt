@@ -1,0 +1,16 @@
+$ python port_scanner.py scanme.nmap.org 75 90
+
+--- Starting scan on target: scanme.nmap.org (resolved IP) ---
+Scanning ports 75 through 90...
+
+[+] Port 80    is OPEN. HTTP/1.1 400 Bad Request
+[+] Port 82    is OPEN. No Banner (Timeout)
+
+--- Scan Finished ---
+Total open ports found: 2
+Time taken: 0:00:02.345678
+------------------------------
+Notes:
+- Banners are the first line received from the service (if any).
+- "No Banner (Timeout)" means the port accepted a connection but did not send data within the banner timeout.
+- Results may vary by network, host, and timing.
